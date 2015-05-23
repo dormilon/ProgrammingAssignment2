@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+#this function is pretty much as the assignment example, but it creates a "special matrix" rather than a "special vector"
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#same as the assignment example, but changued the "m" object to calculate inverse (using the "solve" function) rather than mean
 cacheSolve <- function(x, ...) {
         m <- x$getinv()
         if(!is.null(m)) {
